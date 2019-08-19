@@ -1,12 +1,11 @@
-{% set version = "43c7c86" %}
-
+---
 package:
   name: rnasik
-  version: {{ version }}
+  version: 1.5.3.laxydev
 
 source:
-  git_rev: {{ version }}
-  git_url: https://github.com/MonashBioinformaticsPlatform/RNAsik-pipe
+  git_rev: 335662ddb0bbe8a92cb7c76a7ff74917755ea260
+  git_url: https://github.com/pansapiens/RNAsik-pipe
 
 build:
   number: 1
@@ -23,7 +22,7 @@ requirements:
     - skewer=0.2.2
     - bedtools=2.25.0
     - picard=2.18.2
-    - fastqc=0.11.5
+    - fastqc=0.11.8
     - je-suite
     - multiqc=1.5
     #- qualimap
